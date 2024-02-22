@@ -3,10 +3,10 @@
 	url = https://github.com/libsdl-org/SDL.git
 [submodule "External/OpenCL-Headers"]
 	path = External/OpenCL-Headers
-	url = https://github.com/KhronosGroup/OpenCL-Headers
+	url = https://github.com/KhronosGroup/OpenCL-Headers.git
 [submodule "External/OpenCL-ICD-Loader"]
 	path = External/OpenCL-ICD-Loader
-	url = https://github.com/KhronosGroup/OpenCL-ICD-Loader
+	url = https://github.com/KhronosGroup/OpenCL-ICD-Loader.git
 [submodule "External/stb"]
 	path = External/stb
 	url = https://github.com/nothings/stb.git

@@ -38,6 +38,7 @@ Note: if you would like to build the vanilla version, remove `-DMINECRAFTC_MODS=
 ```sh
 git clone --recursive https://github.com/johnpayne-dev/MinecraftC.git
 cd MinecraftC
+touch External/OpenCL-ICD-Loader/loader/icd_cmake_config.h
 mkdir Build
 cd Build
 cmake -DMINECRAFTC_MODS=1 -G"Visual Studio 17" .. # replace "Visual Studio 17" with your version
@@ -49,6 +50,7 @@ cmake -DMINECRAFTC_MODS=1 -G"Visual Studio 17" .. # replace "Visual Studio 17" w
 ```sh
 git clone --recursive https://github.com/johnpayne-dev/MinecraftC.git
 cd MinecraftC
+touch External/OpenCL-ICD-Loader/loader/icd_cmake_config.h
 mkdir Build && cd Build
 cmake -DMINECRAFTC_MODS -GXcode ..
 ```
@@ -60,7 +62,7 @@ python3 Scripts/MacOS-App.py <path-to-executable> [developer-id]
 ```
 Providing the developer id will sign the .app, which you can find by running `security find-identity`
 
-### Linux instructions (untested):
+### Linux instructions:
 1. If you don't have SDL2 already, run these commands:
 ```sh
 sudo apt-get update
@@ -70,6 +72,7 @@ sudo apt-get install libsdl2-dev
 ```sh
 git clone --recursive https://github.com/johnpayne-dev/MinecraftC.git
 cd MinecraftC
+touch External/OpenCL-ICD-Loader/loader/icd_cmake_config.h
 mkdir Build && cd Build
 cmake -DMINECRAFTC_MODS=1 ..
 make
