@@ -12,4 +12,4 @@
 	url = https://github.com/nothings/stb.git
 [submodule "External/cute_headers"]
 	path = External/cute_headers
-	url = https://github.com/johnpayne-dev/cute_headers.git
+	url = https://github.com/RandyGaul/cute_headers.git
